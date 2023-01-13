@@ -6,6 +6,7 @@ import Tasks from './Components/Tasks'
 import AddTask from "./Components/AddTask"
 import Footer from "./Components/Footer"
 import About from "./Components/About"
+// import SocialFollow from "./Components/SocialFollow"
 
 function App() {
   // add task
@@ -80,6 +81,7 @@ function App() {
        </Routes>
        {/* <About /> */}
        <Footer />
+      
     </div>
     {/* </Routes> */}
     </Router>

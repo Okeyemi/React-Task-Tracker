@@ -1,11 +1,12 @@
-// import { Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 const Footer = () => {
   return (
   <footer>
-    <p>Copyright &copy; 2023</p>
-    <a href="/about">About</a>
+    <p>&copy; 2023 OkeyemiCreative</p>
+    <Link to="/about">About</Link>
+    {/* <FaFacebookF */}
   </footer>
   )
 }

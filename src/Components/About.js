@@ -1,11 +1,12 @@
-// import { Link } from "react-router-dom"
-
+import { Link } from "react-router-dom"
+import SocialFollow from "./SocialFollow"
 
 const About = () => {
   return (
     <div>
     <h3>I'm Okeyemi Tunde</h3>
-    <a href="/">Go Back</a>
+    <SocialFollow />
+    <Link to="/">Go Back</Link>
     </div>
   )
 }
